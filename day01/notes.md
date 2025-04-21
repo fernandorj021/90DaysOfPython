@@ -1,0 +1,1 @@
+# 📅 Day 1: Setting up PyCharm and Writing the First Python Code

@@ -1,0 +1,1 @@
+# 📅 Day 3: Arithmetic Operators and String Manipulation
