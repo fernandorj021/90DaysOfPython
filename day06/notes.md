@@ -1,0 +1,1 @@
+# 📅 Day 6: Variables Scope and the Random Function
