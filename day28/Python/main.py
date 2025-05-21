@@ -57,18 +57,18 @@
 # root.mainloop()
 
 #-----------------------------------------------------------------------------------------------------------------------
-# from tkinter import *
-#
-# root = Tk()
-#
-# root.geometry("200x200")
-#
-# var = StringVar()
-# label = Message(root, textvariable=var,relief=RAISED)
-# var.set("This is a tkinter Message Widget Tutorial")
-# label.pack()
-#
-# root.mainloop()
+from tkinter import *
+
+root = Tk()
+
+root.geometry("200x200")
+
+var = StringVar()
+label = Message(root, textvariable=var)
+var.set("This is a tkinter Message Widget Tutorial")
+label.pack()
+
+root.mainloop()
 
 #-----------------------------------------------------------------------------------------------------------------------
 # from tkinter import *
@@ -146,23 +146,23 @@
 # root.mainloop()
 
 #-----------------------------------------------------------------------------------------------------------------------
-from tkinter import *
-
-root = Tk()
-
-root.geometry("200x200")
-
-text = Text(root)
-text.insert(INSERT, "Hello World")
-text.insert(END, "Good Bye")
-
-
-text.tag_add("tag","1.0", "1.5" )
-text.tag_config("tag", background="black", foreground="white")
-
-text.pack()
-
-root.mainloop()
+# from tkinter import *
+#
+# root = Tk()
+#
+# root.geometry("200x200")
+#
+# text = Text(root)
+# text.insert(INSERT, "Hello World")
+# text.insert(END, "Good Bye")
+#
+#
+# text.tag_add("tag","1.0", "1.5" )
+# text.tag_config("tag", background="black", foreground="white")
+#
+# text.pack()
+#
+# root.mainloop()
 
 
 
